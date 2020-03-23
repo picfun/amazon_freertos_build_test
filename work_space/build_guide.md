@@ -15,12 +15,13 @@
 
           
 
-## For reference how to install windows 8.1  (win7)  
+## (### For reference use) 
+### how to install windows 8.1  (win7)  
 - step 1:  https://developer.microsoft.com/ja-jp/windows/downloads/sdk-archive/  
 - step 2:  Windows 8.1 SDK  
 - step 3:  You have to restart after install 
 
-## how to clone submodules  
+### how to clone submodules  
 submoduleで管理しているライブラリをcloneし忘れた 
 git clone --recursive {gitリポジトリurl}  
 Other links: https://git-scm.com/book/en/v2/Git-Tools-Submodules  
