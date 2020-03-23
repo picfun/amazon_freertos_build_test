@@ -1,31 +1,4 @@
-# Note 
-## Build aws_demos pc version with 201912.00  branch
-- Step1:  Create workfolder: C:\mori_amazon_freertos  , then cd to this folder  
-- Step2:  Gitbash, run commonad: git clone --recursive https://github.com/aws/amazon-freertos.git  
-- step3:  $ git checkout 201912.00
-            error: The following untracked working tree files would be overwritten by checkout:  
-            vendors/espressif/esp-idf/.editorconfig  
-
-          So, you change to use: 
-          git checkout -f 201912.00 
-          output result: ems@ems-PC MINGW32 /c/mori_amazon_freertos/amazon-freertos ((201912.00))
-  
-  
-          
-- Step3:  checkout brach, git checkout 201912.00    
-          you can verfiy all the branched downloaded installed in your local folder as:  
-          $ git branch  
-            * (HEAD detached at 201912.00)  
-            master  
-- Step4:  Build aws_aws pc version. Using Visual studio 2019  
-          Because the demo project use SDK8.1, please refter the sector below "how to install windows 8.1  (win7)  "  to pre-install SDK8.1  
-          C:\mori_amazon_freertos\amazon-freertos\projects\pc\windows\visual_studio\aws_demos\aws_demos.sln   
-          <img src="./images/sdk.jpg" alt="pic1" title="pic1"> 
-          set to the SDK as following  
-          <img src="./images/update.jpg" alt="pic1" title="pic1">    
-
-
-## Build aws_demos pc version with master version (Latest commit ee50e8d 2 days ago)
+# (build Ok)  Build aws_demos pc version with master version (Latest commit ee50e8d)
 - Step1:  Create workfolder: C:\mori_amazon_freertos  , then cd to this folder  
 - Step2:  Gitbash, run commonad: git clone --recursive https://github.com/aws/amazon-freertos.git  
 - step3:  $ git checkout 201912.00
@@ -42,7 +15,7 @@
           set to update the SDK as following  
           <img src="./images/update.jpg" alt="pic1" title="pic1">   
 
-          build successful  
+          build error!!   
            1>aws_demos.vcxproj -> C:\mori_amazon_freertos\amazon-freertos\projects\pc\windows\visual_studio\aws_demos_sdk10\.\Debug\aws_demos.exe  
            1>Done building project "aws_demos.vcxproj".  
            ========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========  
