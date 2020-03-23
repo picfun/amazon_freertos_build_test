@@ -4,7 +4,7 @@
 
 - Step2:  Build aws_aws pc version. Using Visual studio 2019  
           open C:\mori_amazon_freertos\amazon-freertos\projects\pc\windows\visual_studio\aws_demos\aws_demos.sln  
-          <img src="./images/sdk.jpg" alt="pic1" title="pic1"> 
+          <img src="./images/sdk.jpg" alt="pic1" title="pic1">  
           set to update the SDK as the picture above, click button "OK"  
          
           build succeeded!!   
